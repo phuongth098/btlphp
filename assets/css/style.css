@@ -1,0 +1,488 @@
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 10%;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span:first-child {
+  color: #ff6b6b;
+}
+
+.logo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  margin-left: 25px;
+  color: #666;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.user-actions a:first-child {
+  margin-left: 0;
+}
+
+.user-actions i {
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #666;
+  color: white;
+  font-size: 12px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.user-actions a {
+  position: relative;
+}
+
+.section-header span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.section-header span i {
+  font-size: 12px;
+}
+
+/* Phần CSS cho giỏ hàng có đếm số lượng */
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #d94ca4;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: white;
+  padding-bottom: 15px;
+}
+
+social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #222;
+  gap: 25px;
+  border-bottom: 1px solid #333;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+.social-icons i {
+  color: black;
+  font-size: 16px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px 15px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #d4c1ff;
+  letter-spacing: 0.5px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.brand-name .too {
+  color: #f87575;
+}
+
+.brand-name .beauty {
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #f87575;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  font-size: 11px;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 15px 0;
+}
+
+.footer-bottom a {
+  color: #888;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer-bottom a:hover {
+  color: #ccc;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.newsletter-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.newsletter-form button i {
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.slider-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* CSS cải thiện cho dropdown tài khoản */
+
+/* Container cho dropdown */
+.account-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Style cho nút dropdown */
+.dropdown-trigger {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.dropdown-trigger:hover {
+  background-color: #f8f9fa;
+  border-color: #eee;
+}
+
+/* Icon và text trong dropdown */
+.dropdown-trigger i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.dropdown-trigger .fa-chevron-down {
+  font-size: 12px;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 220px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 100;
+  margin-top: 10px;
+  border: 1px solid #eee;
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Hiệu ứng hiện menu */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Items trong dropdown */
+.dropdown-content a {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5a9b8;
+  color: #fff;
+}
+
+/* Icon trong menu items */
+.dropdown-content a i {
+  margin-right: 10px;
+  width: 18px;
+  text-align: center;
+}
+
+/* Hiện dropdown khi hover */
+.account-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.account-dropdown:hover .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
+/* Badge đăng nhập/đăng ký/tài khoản */
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #f5a9b8;
+  color: white;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+/* Style cho mobile */
+@media (max-width: 768px) {
+  .dropdown-content {
+    width: 100%;
+    left: 0;
+  }
+
+  .account-dropdown {
+    margin-right: 0;
+  }
+}
+
+/* Styling cho thông báo */
+.notification-area {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  min-width: 300px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  border-left: 5px solid;
+}
+
+.notification.success {
+  border-left-color: #4caf50;
+}
+
+.notification.error {
+  border-left-color: #f44336;
+}
+
+.notification i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.notification.success i {
+  color: #4caf50;
+}
+
+.notification.error i {
+  color: #f44336;
+}
+/* Thông báo yêu cầu đăng nhập */
+.login-notification {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+.login-notification a {
+  color: #f5a9b8;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login-notification a:hover {
+  color: #f295a7;
+}

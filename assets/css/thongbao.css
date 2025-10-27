@@ -1,0 +1,252 @@
+/* Container */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Toast */
+.toast {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    animation: slideIn 0.4s ease;
+    border-left: 4px solid #4CAF50;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.toast-success { border-color: #4caf50; }
+.toast-error { border-color: #f44336; }
+.toast-info { border-color: #2196f3; }
+.toast-warning { border-color: #ff9800; }
+
+.toast-cart-success {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.toast-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px 8px 16px;
+    background: transparent;
+}
+.toast-icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+.toast-title {
+    font-weight: 600;
+    font-size: 16px;
+    flex: 1;
+}
+.toast-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.toast-close:hover { color: #f44336; }
+
+.toast-cart-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.toast-cart-icon {
+    background-color: #4CAF50;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.toast-cart-title {
+    font-weight: 600;
+    font-size: 16px;
+    flex-grow: 1;
+    color: #333;
+}
+
+.toast-cart-close {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+}
+
+.toast-cart-close:hover {
+    color: #555;
+}
+
+/* Message */
+.toast-message {
+    padding: 0 16px 12px 54px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    position: relative;
+}
+
+.toast-cart-content {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.toast-cart-product-img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+    border: 1px solid #eaeaea;
+}
+
+.toast-cart-product-info {
+    flex-grow: 1;
+}
+
+.toast-cart-product-name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.toast-cart-product-price {
+    font-weight: 600;
+    font-size: 15px;
+    color: #e44d26;
+    margin-bottom: 6px;
+}
+
+.toast-cart-product-quantity {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Buttons */
+.toast-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 0 16px 14px 16px;
+}
+.toast-view-cart, .toast-continue-shopping {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.toast-view-cart {
+    background: #4caf50;
+    color: #fff;
+}
+.toast-view-cart:hover { background: #388e3c; }
+.toast-continue-shopping {
+    background: #f1f1f1;
+    color: #333;
+}
+.toast-continue-shopping:hover { background: #e0e0e0; }
+
+.toast-cart-actions {
+    display: flex;
+    padding: 10px 15px 15px;
+    gap: 10px;
+}
+
+.toast-cart-btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.toast-cart-view {
+    background-color: #4CAF50;
+    color: white;
+    flex-grow: 1;
+}
+
+.toast-cart-view:hover {
+    background-color: #3d8b40;
+}
+
+.toast-cart-continue {
+    background-color: #f1f1f1;
+    color: #333;
+    flex-grow: 1;
+}
+
+.toast-cart-continue:hover {
+    background-color: #e0e0e0;
+}
+
+/* Progress bar */
+.toast-progress-bar {
+    height: 4px;
+    background: linear-gradient(90deg, #4caf50, #2196f3);
+    width: 0;
+    border-radius: 0 0 10px 10px;
+    transition: width 0.2s;
+}
+.toast-error .toast-progress-bar { background: linear-gradient(90deg, #f44336, #ff9800); }
+.toast-warning .toast-progress-bar { background: linear-gradient(90deg, #ff9800, #ffd600); }
+.toast-info .toast-progress-bar { background: linear-gradient(90deg, #2196f3, #00bcd4); }
+
+.toast-progress {
+    height: 3px;
+    background-color: #4CAF50;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes progress {
+    from { width: 100%; }
+    to { width: 0%; }
+}
