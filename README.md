@@ -1,183 +1,170 @@
-📌 README — TooBeauty | Website Quảng Bá & Bán Mỹ Phẩm
-🌸 Giới thiệu dự án
+# 📌 **README — TooBeauty | Website Quảng Bá & Bán Mỹ Phẩm**
 
-TooBeauty là website thương mại điện tử chuyên về mỹ phẩm, được xây dựng nhằm hỗ trợ khách hàng tìm kiếm, xem thông tin và mua sắm các sản phẩm làm đẹp một cách thuận tiện.
-Dự án được phát triển cho học phần Thiết kế và Triển khai Ứng Dụng Web.
+## 🌸 Giới thiệu dự án
 
-🎯 Mục tiêu chính
+**TooBeauty** là website thương mại điện tử chuyên về mỹ phẩm, được xây dựng nhằm hỗ trợ khách hàng tìm kiếm, xem thông tin và mua sắm các sản phẩm làm đẹp một cách thuận tiện.
+Dự án được phát triển cho học phần **Thiết kế và Triển khai Ứng Dụng Web**.
 
-Quảng bá thương hiệu mỹ phẩm TooBeauty.
+---
 
-Cung cấp hệ thống mua sắm trực tuyến đầy đủ chức năng.
+## 🎯 **Mục tiêu chính**
 
-Tạo trải nghiệm thân thiện, hiện đại cho người dùng.
+* Quảng bá thương hiệu mỹ phẩm TooBeauty.
+* Cung cấp hệ thống mua sắm trực tuyến đầy đủ chức năng.
+* Tạo trải nghiệm thân thiện, hiện đại cho người dùng.
+* Xây dựng website có thể mở rộng và dễ bảo trì.
 
-Xây dựng website có thể mở rộng và dễ bảo trì.
+---
 
-👥 Nhóm phát triển
+## 👥 **Nhóm phát triển**
 
-Sinh viên thực hiện: Nguyễn Hoàng Thanh Duy
+* **Sinh viên thực hiện:** Nguyễn Hoàng Thanh Duy, Nguyễn Phương Thảo
+* **Lớp:** K59SN1
+* **Giảng viên hướng dẫn:** 
 
-Lớp: K59SN1
+---
 
-Giảng viên hướng dẫn: ThS. Bùi Quang Trường
+# 📂 **Cấu trúc website**
 
-📂 Cấu trúc website
+Website được tổ chức theo **cấu trúc phân cấp**, gồm các trang chính:
 
-Website được tổ chức theo cấu trúc phân cấp, gồm các trang chính:
+### 1. **Trang chủ**
 
-1. Trang chủ
+* Banner quảng cáo
+* Sản phẩm nổi bật / bán chạy / mới
+* Thanh điều hướng
+* Footer chứa thông tin liên hệ và chính sách
 
-Banner quảng cáo
+### 2. **Trang Sản phẩm**
 
-Sản phẩm nổi bật / bán chạy / mới
+* Danh sách 100 sản phẩm
+* Lọc theo danh mục, loại da, giá
+* Sắp xếp theo giá, mới nhất, liên quan
+* Phân trang (15 sản phẩm/trang)
+* Xem chi tiết và thêm vào giỏ hàng
 
-Thanh điều hướng
+### 3. **Trang Giới thiệu**
 
-Footer chứa thông tin liên hệ và chính sách
+* Lịch sử hình thành
+* Sứ mệnh, tầm nhìn
+* Các chính sách (đổi trả, giao hàng, bảo mật, bảo hành)
 
-2. Trang Sản phẩm
+### 4. **Trang Liên hệ**
 
-Danh sách 100 sản phẩm
+* Email, hotline, mạng xã hội
+* Form gửi tin nhắn
 
-Lọc theo danh mục, loại da, giá
+### 5. **Giỏ hàng & Thanh toán**
 
-Sắp xếp theo giá, mới nhất, liên quan
+* Thêm/xóa/sửa số lượng sản phẩm
+* Tính tổng tiền
+* Xác nhận đơn hàng
+* Lưu thông tin vào database
 
-Phân trang (15 sản phẩm/trang)
+### 6. **Trang Tài khoản**
 
-Xem chi tiết và thêm vào giỏ hàng
+* Thông tin khách hàng
+* Lịch sử đơn hàng
+* Chi tiết đơn hàng
 
-3. Trang Giới thiệu
+---
 
-Lịch sử hình thành
+# 🗄️ **Cơ sở dữ liệu (MySQL)**
 
-Sứ mệnh, tầm nhìn
+Hệ thống gồm **8 bảng chính**:
 
-Các chính sách (đổi trả, giao hàng, bảo mật, bảo hành)
+* `brands` – Thương hiệu
+* `categories` – Danh mục sản phẩm
+* `products` – Sản phẩm
+* `product_images` – Hình ảnh sản phẩm
+* `customers` – Khách hàng
+* `orders` – Đơn hàng
+* `order_items` – Chi tiết đơn hàng
+* `cart` – Giỏ hàng
 
-4. Trang Liên hệ
+> ERD đã được thiết kế đảm bảo ràng buộc khóa ngoại, dễ mở rộng và quản lý.
 
-Email, hotline, mạng xã hội
+---
 
-Form gửi tin nhắn
+# 🛠️ **Công nghệ sử dụng**
 
-5. Giỏ hàng & Thanh toán
+### 🔧 Frontend
 
-Thêm/xóa/sửa số lượng sản phẩm
+* **HTML5**, **CSS3**, **JavaScript**
+* Thiết kế giao diện bằng **Figma**
+* Giao diện responsive
+* Font Awesome icons
 
-Tính tổng tiền
+### 🔧 Backend
 
-Xác nhận đơn hàng
+* **PHP** (XAMPP – Apache server)
+* **MySQL** (quản lý dữ liệu sản phẩm, khách hàng, đơn hàng)
 
-Lưu thông tin vào database
+### 🔧 Công cụ phát triển
 
-6. Trang Tài khoản
+* Visual Studio Code
+* XAMPP
+* phpMyAdmin
 
-Thông tin khách hàng
+---
 
-Lịch sử đơn hàng
+# 📌 **Các chức năng chính**
 
-Chi tiết đơn hàng
+### ✔️ Quản lý sản phẩm
 
-🗄️ Cơ sở dữ liệu (MySQL)
+* Xem danh sách
+* Tìm kiếm & lọc
+* Xem chi tiết
+* Sản phẩm nổi bật / mới
 
-Hệ thống gồm 8 bảng chính:
+### ✔️ Giỏ hàng
 
-brands – Thương hiệu
+* Thêm/Xóa/Cập nhật số lượng
+* Tính tổng tiền theo thời gian thực
 
-categories – Danh mục sản phẩm
+### ✔️ Thanh toán
 
-products – Sản phẩm
+* Nhập thông tin khách hàng
+* Tạo đơn hàng
+* Lưu xuống database
 
-product_images – Hình ảnh sản phẩm
+### ✔️ Quản lý người dùng
 
-customers – Khách hàng
+* Xem lịch sử đơn hàng
+* Trạng thái đơn hàng
+* Xác nhận đơn hàng thành công
 
-orders – Đơn hàng
+---
 
-order_items – Chi tiết đơn hàng
-
-cart – Giỏ hàng
-
-ERD đã được thiết kế đảm bảo ràng buộc khóa ngoại, dễ mở rộng và quản lý.
-
-🛠️ Công nghệ sử dụng
-🔧 Frontend
-
-HTML5, CSS3, JavaScript
-
-Thiết kế giao diện bằng Figma
-
-Giao diện responsive
-
-Font Awesome icons
-
-🔧 Backend
-
-PHP (XAMPP – Apache server)
-
-MySQL (quản lý dữ liệu sản phẩm, khách hàng, đơn hàng)
-
-🔧 Công cụ phát triển
-
-Visual Studio Code
-
-XAMPP
-
-phpMyAdmin
-
-📌 Các chức năng chính
-✔️ Quản lý sản phẩm
-
-Xem danh sách
-
-Tìm kiếm & lọc
-
-Xem chi tiết
-
-Sản phẩm nổi bật / mới
-
-✔️ Giỏ hàng
-
-Thêm/Xóa/Cập nhật số lượng
-
-Tính tổng tiền theo thời gian thực
-
-✔️ Thanh toán
-
-Nhập thông tin khách hàng
-
-Tạo đơn hàng
-
-Lưu xuống database
-
-✔️ Quản lý người dùng
-
-Xem lịch sử đơn hàng
-
-Trạng thái đơn hàng
-
-Xác nhận đơn hàng thành công
-
-🎨 Giao diện (Figma)
+# 🎨 **Giao diện (Figma)**
 
 Gồm các trang:
 
-Trang chủ
+* Trang chủ
+* Sản phẩm
+* Giới thiệu
+* Liên hệ
+* Giỏ hàng
+* Thanh toán
+* Chi tiết đơn hàng
+* Tài khoản
 
-Sản phẩm
+> Giao diện mang phong cách nhẹ nhàng, hiện đại, phù hợp chủ đề mỹ phẩm.
 
-Giới thiệu
+---
 
-Liên hệ
+# 📝 **Kết luận**
 
-Giỏ hàng
+Dự án website TooBeauty đã hoàn thiện đầy đủ chức năng cơ bản của một trang thương mại điện tử: hiển thị sản phẩm, giỏ hàng, thanh toán, quản lý đơn hàng và giao diện đẹp mắt.
+Dự án giúp rèn luyện kỹ năng lập trình web, thiết kế UI/UX, làm việc với cơ sở dữ liệu và xử lý logic nghiệp vụ.
 
-Thanh toán
+---
 
-Chi tiết đơn hàng
+# 💖 **Liên hệ**
 
-Tài khoản
+* 📧 Email: [toobeauty@gmail.com](mailto:toobeauty@gmail.com)
+* 🌐 Website: TooBeauty.vn (demo)
+* 📱 Facebook / Instagram: @TooBeauty
 
-Giao diện mang phong cách nhẹ nhàng, hiện đại, phù hợp chủ đề mỹ phẩm.# btlphp
+---
+
