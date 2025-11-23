@@ -185,7 +185,6 @@ Hệ thống gồm **8 bảng chính**:
 # **Kết luận**
 
 Dự án website TooBeauty đã hoàn thiện đầy đủ chức năng cơ bản của một trang thương mại điện tử: hiển thị sản phẩm, giỏ hàng, thanh toán, quản lý đơn hàng và giao diện đẹp mắt.
-Dự án giúp rèn luyện kỹ năng lập trình web, thiết kế UI/UX, làm việc với cơ sở dữ liệu và xử lý logic nghiệp vụ.
 
 ---
 
