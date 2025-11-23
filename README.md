@@ -3,7 +3,6 @@
 ## Giới thiệu dự án
 
 **TooBeauty** là website thương mại điện tử chuyên về mỹ phẩm, được xây dựng nhằm hỗ trợ khách hàng tìm kiếm, xem thông tin và mua sắm các sản phẩm làm đẹp một cách thuận tiện.
-Dự án được phát triển cho học phần **Thiết kế và Triển khai Ứng Dụng Web**.
 
 ---
 
@@ -31,6 +30,7 @@ Dự án được phát triển cho học phần **Thiết kế và Triển khai
 - Tên người dùng: root
 - Cấu hình mật khẩu mặc định (có thể được sửa đổi trong Config/Database.php)
 
+---
 ## 👥 **Nhóm phát triển**
 
 * **Sinh viên thực hiện:** Nguyễn Hoàng Thanh Duy, Nguyễn Phương Thảo
