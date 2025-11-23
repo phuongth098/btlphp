@@ -1,6 +1,6 @@
 # 📌 **README — TooBeauty | Website Quảng Bá & Bán Mỹ Phẩm**
 
-## 🌸 Giới thiệu dự án
+## Giới thiệu dự án
 
 **TooBeauty** là website thương mại điện tử chuyên về mỹ phẩm, được xây dựng nhằm hỗ trợ khách hàng tìm kiếm, xem thông tin và mua sắm các sản phẩm làm đẹp một cách thuận tiện.
 Dự án được phát triển cho học phần **Thiết kế và Triển khai Ứng Dụng Web**.
@@ -15,6 +15,21 @@ Dự án được phát triển cho học phần **Thiết kế và Triển khai
 * Xây dựng website có thể mở rộng và dễ bảo trì.
 
 ---
+## Yêu Cầu Hệ Thống
+### Yêu Cầu Kỹ Thuật
+
+- PHP 7.4 hoặc cao hơn
+- MySQL 5.7 hoặc cao hơn
+- Máy chủ web (Apache/Nginx)
+- PDO PHP Extension
+- Trình duyệt web hiện đại có hỗ trợ JavaScript
+
+### Cấu Hình Cơ Sở Dữ Liệu
+
+- Host: localhost
+- Tên Database: toobeauty1
+- Tên người dùng: root
+- Cấu hình mật khẩu mặc định (có thể được sửa đổi trong Config/Database.php)
 
 ## 👥 **Nhóm phát triển**
 
@@ -86,28 +101,6 @@ Hệ thống gồm **8 bảng chính**:
 
 ---
 
-# 🛠️ **Công nghệ sử dụng**
-
-### 🔧 Frontend
-
-* **HTML5**, **CSS3**, **JavaScript**
-* Thiết kế giao diện bằng **Figma**
-* Giao diện responsive
-* Font Awesome icons
-
-### 🔧 Backend
-
-* **PHP** (XAMPP – Apache server)
-* **MySQL** (quản lý dữ liệu sản phẩm, khách hàng, đơn hàng)
-
-### 🔧 Công cụ phát triển
-
-* Visual Studio Code
-* XAMPP
-* phpMyAdmin
-
----
-
 # 📌 **Các chức năng chính**
 
 ### ✔️ Quản lý sản phẩm
@@ -153,14 +146,14 @@ Gồm các trang:
 
 ---
 
-# 📝 **Kết luận**
+# **Kết luận**
 
 Dự án website TooBeauty đã hoàn thiện đầy đủ chức năng cơ bản của một trang thương mại điện tử: hiển thị sản phẩm, giỏ hàng, thanh toán, quản lý đơn hàng và giao diện đẹp mắt.
 Dự án giúp rèn luyện kỹ năng lập trình web, thiết kế UI/UX, làm việc với cơ sở dữ liệu và xử lý logic nghiệp vụ.
 
 ---
 
-# 💖 **Liên hệ**
+# **Liên hệ**
 
 * 📧 Email: [toobeauty@gmail.com](mailto:toobeauty@gmail.com)
 * 🌐 Website: TooBeauty.vn (demo)
