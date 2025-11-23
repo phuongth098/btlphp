@@ -89,7 +89,6 @@ Website được tổ chức theo **cấu trúc phân cấp**, gồm các trang 
 * Xem danh sách toàn bộ sản phẩm
 * Lọc theo danh mục, loại da, khoảng giá
 * Sắp xếp sản phẩm (mới nhất / giá / liên quan)
-* Xem chi tiết sản phẩm
 * Thêm sản phẩm vào giỏ hàng
 * Đặt hàng và thanh toán
 * Xem thông tin giới thiệu, chính sách, liên hệ
