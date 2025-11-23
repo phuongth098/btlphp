@@ -159,39 +159,6 @@ Dự án giúp rèn luyện kỹ năng lập trình web, thiết kế UI/UX, là
 * 📱 Facebook / Instagram: @TooBeauty
 
 ---
-Dưới đây là **README.md** hoàn chỉnh cho dự án **Thiết kế và triển khai website quảng bá và bán mỹ phẩm Too Beauty**, được xây dựng dựa trên nội dung trong file *BTL web D.docx*.
-Mình đã viết theo đúng bố cục và phong cách của README bạn đưa mẫu (PDU PMS).
-
----
-
-# 📌 README.md — Website Quảng Bá & Bán Mỹ Phẩm **Too Beauty**
-
-## 🧴 Tổng Quan
-
-**Too Beauty** là website thương mại điện tử được xây dựng nhằm quảng bá thương hiệu mỹ phẩm TOOBEAUTY và cung cấp nền tảng mua sắm trực tuyến hiện đại, tiện lợi và an toàn.
-Website hỗ trợ người dùng xem thông tin sản phẩm, lọc – tìm kiếm – sắp xếp, thêm giỏ hàng, thanh toán và xem các chính sách liên quan đến doanh nghiệp.
-
-Dự án được xây dựng với mục tiêu:
-
-* Giới thiệu doanh nghiệp kinh doanh mỹ phẩm TOOBEAUTY
-* Cung cấp nguồn thông tin minh bạch, đáng tin cậy về sản phẩm làm đẹp
-* Hỗ trợ khách hàng mua sắm online nhanh chóng và thuận tiện
-* Mang lại trải nghiệm giao diện trực quan, hiện đại và dễ sử dụng
-
----
-
-## ⚙️ Yêu Cầu Hệ Thống
-
-### 🔧 Yêu Cầu Kỹ Thuật
-
-* **XAMPP / Localhost** với PHP ≥ 7.4
-* **MySQL** ≥ 5.7
-* Trình duyệt hiện đại hỗ trợ HTML5 + CSS3 + JavaScript
-* Các thư viện sử dụng:
-
-  * *Font Awesome* (icon)
-  * *Figma* (thiết kế giao diện)
-  * AJAX/Fetch API xử lý tương tác
 
 ### 🗄️ Cấu Hình Cơ Sở Dữ Liệu
 
@@ -223,14 +190,6 @@ Dữ liệu mẫu:
 * Thêm sản phẩm vào giỏ hàng
 * Đặt hàng và thanh toán
 * Xem thông tin giới thiệu, chính sách, liên hệ
-
-### 👨‍💼 Quản Trị Viên (nếu mở rộng)
-
-*(Trong file chưa mô tả chi tiết nhưng có thể áp dụng)*
-
-* Quản lý danh mục, sản phẩm, đơn hàng
-* Cập nhật thông tin khách hàng
-* Xem báo cáo bán hàng
 
 ---
 
@@ -351,50 +310,4 @@ Dữ liệu mẫu:
 * API nhỏ bằng PHP (get_cart.php, cart_functions.php)
 
 ---
-
-## 📁 Cấu Trúc Dự Án
-
-```
-/assets
-   /css
-   /js
-/includes
-   header.php
-   footer.php
-/config.php
-/cart_functions.php
-/get_cart.php
-/products.php
-/danhmucsp.php
-/giohang.php
-/thanhtoan.php
-/chinhsach.php
-/index.php
-```
-
----
-
-## 🚀 Hướng Dẫn Sử Dụng
-
-1. Clone source và đặt vào thư mục htdocs của XAMPP
-2. Tạo database `toobeauty1`
-3. Import file SQL (cấu trúc 8 bảng)
-4. Chạy địa chỉ:
-
-```
-http://localhost/toobeauty/
-```
-
-5. Bắt đầu trải nghiệm website Too Beauty
-
----
-
-Nếu bạn muốn, mình có thể:
-
-✅ Tạo thêm sơ đồ Use Case UML
-✅ Viết README dạng tiếng Anh
-✅ Tạo ERD Diagram (bảng – quan hệ)
-✅ Viết báo cáo tóm tắt 1 trang cho bài BTL
-
-Chỉ cần nói mình biết nhé!
 
