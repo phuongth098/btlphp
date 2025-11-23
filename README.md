@@ -35,7 +35,6 @@ Dự án được phát triển cho học phần **Thiết kế và Triển khai
 
 * **Sinh viên thực hiện:** Nguyễn Hoàng Thanh Duy, Nguyễn Phương Thảo
 * **Lớp:** K59SN1
-* **Giảng viên hướng dẫn:** 
 
 ---
 
