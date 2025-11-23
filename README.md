@@ -167,7 +167,7 @@ Website được tổ chức theo **cấu trúc phân cấp**, gồm các trang 
 * Thông tin email, số điện thoại, địa chỉ
 
 ---
-# 🗄️ **Cơ sở dữ liệu**
+# **Cơ sở dữ liệu**
 
 Hệ thống gồm **8 bảng chính**:
 
